@@ -1,0 +1,215 @@
+
+
+/*Here is the background*/
+
+
+html {
+    background-image: url(BackgroundWeb_2.gif);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+
+
+
+/*Here is the changing map*/
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+.mapWrapper {
+    margin: auto;
+    width: auto;
+    position: fixed;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#MainMap {
+   height: 120%;
+    width: 120%;
+}
+
+
+/*Here are the buttons*/
+
+.buttonsWrapper {
+    position: fixed;
+    top: 79.5%;
+    left: 38%;
+}
+
+.NuuksioButton {
+    max-width: 10%;
+    height: auto;
+    margin-bottom: 1%;
+}
+
+.SipooButton {
+    max-width: 10%;
+    height: auto;
+}
+
+
+
+.TammisaariButton {
+    max-width: 10%;
+    height: auto;
+}
+
+.LiesjarviButton {
+    max-width: 10%;
+    height: auto;
+    margin-bottom: 1%;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.25);
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .5));
+}
+
+/*parknames*/
+
+.ParkName
+{
+display: flex;
+flex-direction: row;
+text-align: center;
+justify-content: center;
+margin-top: 375px;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 120%;
+    
+
+}
+
+#Nuux {
+    color: beige;
+    font-size: 28px;
+    font-weight: 500;
+    text-shadow: 1px 1.5px 4px #000000;
+
+}
+    
+---------------------------------
+/*Here is the button hover event*/
+
+
+.Parkname > #Nuux {
+    display: none;
+}
+
+.NuuksioButton grow:hover + #Nuux {
+    display: block;
+}
+
+
+---------------------------------   
+}
+
+#NuuksioButton grow {
+    display: block
+}
+
+.WelcomeText {
+    color: beige;
+    font-size: 80px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    margin-top: 60px;
+    font-weight: 200;
+    text-shadow: 1px 1.5px 4px #000000;
+}
+
+.footer {
+     position: fixed;
+   left: 0;
+   bottom: 25px;
+   width: 100%;
+   background-color: none;
+   color: white;
+   text-align: center;
+   Á
+}
+
+.header {
+    width: 52%;
+    height: auto;
+    margin-left: 24.5%;
+    margin-top: 18px;
+}
+
+
+#contact {
+    color: beige;
+    text-decoration: none;
+    font-family: amatic;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#contact:hover {
+    text-decoration: underline;
+}
+
+.back {
+  font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+}
+.ParkName
+{
+display: flex;
+flex-direction: row;
+text-align: center;
+justify-content: center;
+margin-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    
+
+}
+
+#Nuux {
+    color: beige;
+    font-size: 50px;
+    font-weight: 500;
+    text-shadow: 1px 1.5px 4px #000000;
+
+}
+.text{
+     text-align: center;
+     margin-top: 70px;
+    font-family: 'Shadows Into Light', cursive;
+    color: beige;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 1px 1.5px 4px #000000;
+      -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+  -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+  -moz-column-rule-style: solid; /* Firefox */
+  column-rule-style: solid;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+.gallery {
+  display: inline-flex;
+    text-align: center;
+    width: 500px;
+    margin-left:7.3%;
+    flex-basis: row;
+    margin-top: 50px;
+}
